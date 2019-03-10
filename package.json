@@ -1,0 +1,22 @@
+{
+  "name": "megascraper",
+  "version": "1.0.0",
+  "description": "Scraping the promotions in mega bank's website ",
+  "main": "solution.js",
+  "scripts": {
+    "test": "node solution.js"
+  },
+  "keywords": [
+    "scraper"
+  ],
+  "author": "Sam Jones",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "jquery": "^3.3.1",
+    "nightmare": "^3.0.1",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4",
+    "vo": "^4.0.2"
+  }
+}
